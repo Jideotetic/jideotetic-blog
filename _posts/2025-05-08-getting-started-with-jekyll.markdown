@@ -2,29 +2,47 @@
 layout: post
 title: "Getting Started With Jekyll!"
 date: 2025-05-08 12:58:29 +0100
-categories: jekyll update
+categories: posts
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more [jekyll.com][jekyll].
 
-Jekyll requires blog post files to be named according to the following format:
+## Prerequisites
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Jekyll requires the following:
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+- Ruby version 2.7.0 or higher
+- RubyGems
+- GCC and Make
 
-Jekyll also offers powerful support for code snippets:
+## Instructions
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+1. Install all prerequisites.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+2. Install the jekyll and bundler gems.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+   ```
+   gem install jekyll bundler
+   ```
+
+3. Create a new Jekyll site at ./myblog.
+
+   ```
+   jekyll new myblog
+   ```
+
+4. Change into your new directory.
+
+   ```
+   cd myblog
+   ```
+
+5. Build the site and make it available on a local server.
+
+   ```
+   bundle exec jekyll serve
+   ```
+
+6. Browse to http://localhost:4000
+
+[jekyll]: https://jekyllrb.com/docs/
