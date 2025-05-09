@@ -2,7 +2,7 @@
 layout: post
 title: "Getting Started With Jekyll!"
 date: 2025-05-08 12:58:29 +0100
-categories: jideotetic-blog posts
+categories: posts
 ---
 
 Jekyll is a static site generator. It takes text written in your favorite markup language and uses layouts to create a static website. You can tweak the site’s look and feel, URLs, the data displayed on the page, and more [jekyll.com][jekyll].
