@@ -4,14 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+Hey there 👋, welcome I am **Abdulbasit Yusuf** a Frontend Developer with over 1 year of profession experience in building responsive and clean user interface. I am proficient in **_HTML5_**, **_CSS3_**, **_JavaScript_**, **_TypeScript_**, **_React_**, **_NextJs_**, **_Git & Github_**, **_Shell Scripting_** and **_Jekyll_** to build cutting edge user interface.
